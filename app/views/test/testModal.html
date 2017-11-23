@@ -1,0 +1,11 @@
+<div class="modal-header modal-header-info">
+    <button type="button" class="close" ng-click="ctrl.funCloseModal()"><i class="fa fa-times"></i></button>
+    <h2 class="modal-title"><i class="fa fa-info-circle"></i> {{ctrl.TestListRest.idTest + " - " + ctrl.TestListRest.nameTest}}</h2>
+</div>
+<div class="modal-body">
+    <h3>{{ctrl.TestListRest.tituloTest}}</h3>
+    <p><b>Descripción: </b>{{ctrl.TestListRest.descTest}}</p>
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-danger btn-md" ng-click="ctrl.funCloseModal()">Cancelar <i class="fa fa-reply"></i></button>
+</div>
